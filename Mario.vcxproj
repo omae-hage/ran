@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Appmain.cpp" />
+    <ClCompile Include="Object\Goal\Goal3.cpp" />
+    <ClCompile Include="Object\Goal\Goal2.cpp" />
+    <ClCompile Include="Object\Goal\Siro.cpp" />
+    <ClCompile Include="Stage\Kusa2.cpp" />
+    <ClCompile Include="Stage\Kusa1.cpp" />
+    <ClCompile Include="Stage\Kusa.cpp" />
+    <ClCompile Include="Scene\Game\Game.cpp" />
+    <ClCompile Include="Object\block\blackblock.cpp" />
+    <ClCompile Include="Object\block\kai_block.cpp" />
+    <ClCompile Include="Object\Dokan\dokan.cpp" />
+    <ClCompile Include="Object\Dokan\dokan1.cpp" />
+    <ClCompile Include="Object\Dokan\dokan2.cpp" />
+    <ClCompile Include="Object\Dokan\dokan3.cpp" />
+    <ClCompile Include="Object\Item\Coin.cpp" />
+    <ClCompile Include="Object\Player\Fire_ball.cpp" />
+    <ClCompile Include="Stage\Kumo2.cpp" />
+    <ClCompile Include="Stage\Kumo3.cpp" />
+    <ClCompile Include="Stage\Kumo.cpp" />
+    <ClCompile Include="Object\Item\flower.cpp" />
+    <ClCompile Include="Object\Goal\Goal.cpp" />
+    <ClCompile Include="Object\Item\ItemBox.cpp" />
+    <ClCompile Include="Object\Item\Brick.cpp" />
+    <ClCompile Include="Object\Item\BigMash.cpp" />
+    <ClCompile Include="Scene\Result\Result.cpp" />
+    <ClCompile Include="Stage\Mountain.cpp" />
+    <ClCompile Include="Object\Item\star.cpp" />
+    <ClCompile Include="Object\block\tika_floor.cpp" />
+    <ClCompile Include="Scene\Tika\Tika.cpp" />
+    <ClCompile Include="Object\Item\star_Box.cpp" />
+    <ClCompile Include="Object\Item\tika_Coin.cpp" />
+    <ClCompile Include="Stage\Timer.cpp" />
+    <ClCompile Include="Utility\FileManager.cpp" />
+    <ClCompile Include="Object\GameObjectBase.cpp" />
+    <ClCompile Include="Stage\Block.cpp" />
+    <ClCompile Include="Utility\BOXCollision.cpp" />
+    <ClCompile Include="Utility\ResourceManager.cpp" />
+    <ClCompile Include="Utility\ProjectConfig.cpp" />
+    <ClCompile Include="Scene\SceneManager.cpp" />
+    <ClCompile Include="Scene\InGame\InGameScene.cpp" />
+    <ClCompile Include="Scene\Title\TitleScene.cpp" />
+    <ClCompile Include="Utility\InputManager.cpp" />
+    <ClCompile Include="Scene\SceneFactory.cpp" />
+    <ClCompile Include="Object\Enemy\KEnemy.cpp" />
+    <ClCompile Include="Object\Enemy\NEnemy.cpp" />
+    <ClCompile Include="Object\Player\Player.cpp" />
+    <ClCompile Include="Utility\Collision.cpp" />
+    <ClCompile Include="Utility\StringManager.cpp" />
+    <ClCompile Include="Utility\Vector2D.cpp" />
+    <ClCompile Include="Object\Dokan_Y\yokodokan.cpp" />
+    <ClCompile Include="Object\Dokan_Y\yokodokan1.cpp" />
+    <ClCompile Include="Object\Dokan_Y\yokodokan2.cpp" />
+    <ClCompile Include="Object\Dokan_Y\yokodokan3.cpp" />
+    <ClCompile Include="Object\Dokan_Y\yokodokan4.cpp" />
+    <ClCompile Include="Object\Dokan_Y\yokodokan5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object\Goal\Goal3.h" />
+    <ClInclude Include="Object\Goal\Goal2.h" />
+    <ClInclude Include="Object\Goal\Siro.h" />
+    <ClInclude Include="Stage\Kusa2.h" />
+    <ClInclude Include="Stage\Kusa1.h" />
+    <ClInclude Include="Stage\Kusa.h" />
+    <ClInclude Include="Scene\Game\Game.h" />
+    <ClInclude Include="Object\block\blackblock.h" />
+    <ClInclude Include="Object\block\kai_block.h" />
+    <ClInclude Include="Object\Dokan\dokan.h" />
+    <ClInclude Include="Object\Dokan\dokan1.h" />
+    <ClInclude Include="Object\Dokan\dokan2.h" />
+    <ClInclude Include="Object\Dokan\dokan3.h" />
+    <ClInclude Include="Object\Enemy\EnemyBase.h" />
+    <ClInclude Include="Object\Item\Coin.h" />
+    <ClInclude Include="Object\Player\Fire_ball.h" />
+    <ClInclude Include="Object\Item\flower.h" />
+    <ClInclude Include="Object\Goal\Goal.h" />
+    <ClInclude Include="Object\Item\ItemBox.h" />
+    <ClInclude Include="Object\Item\Brick.h" />
+    <ClInclude Include="Object\Item\BigMash.h" />
+    <ClInclude Include="Object\block\tika_floor.h" />
+    <ClInclude Include="Object\Enemy\KEnemy.h" />
+    <ClInclude Include="Object\Enemy\NEnemy.h" />
+    <ClInclude Include="Object\GameObject.h" />
+    <ClInclude Include="Object\GameObjectBase.h" />
+    <ClInclude Include="Object\Item\star.h" />
+    <ClInclude Include="Object\Player\Player.h" />
+    <ClInclude Include="Stage\Kumo2.h" />
+    <ClInclude Include="Stage\Kumo3.h" />
+    <ClInclude Include="Stage\Kumo.h" />
+    <ClInclude Include="Scene\Result\Result.h" />
+    <ClInclude Include="Stage\Mountain.h" />
+    <ClInclude Include="Stage\Block.h" />
+    <ClInclude Include="Scene\SceneManager.h" />
+    <ClInclude Include="Scene\InGame\InGameScene.h" />
+    <ClInclude Include="Scene\Title\TitleScene.h" />
+    <ClInclude Include="Scene\SceneFactory.h" />
+    <ClInclude Include="Scene\SceneBase.h" />
+    <ClInclude Include="Scene\Tika\Tika.h" />
+    <ClInclude Include="Object\Item\star_Box.h" />
+    <ClInclude Include="Object\Item\tika_Coin.h" />
+    <ClInclude Include="Stage\Timer.h" />
+    <ClInclude Include="Utility\BOXCollision.h" />
+    <ClInclude Include="Utility\ResourceManager.h" />
+    <ClInclude Include="Utility\ProjectConfig.h" />
+    <ClInclude Include="Utility\FileManager.h" />
+    <ClInclude Include="Utility\InputManager.h" />
+    <ClInclude Include="Utility\Collision.h" />
+    <ClInclude Include="Utility\StringManager.h" />
+    <ClInclude Include="Utility\Vector2D.h" />
+    <ClInclude Include="Object\Dokan_Y\yokodokan.h" />
+    <ClInclude Include="Object\Dokan_Y\yokodokan1.h" />
+    <ClInclude Include="Object\Dokan_Y\yokodokan2.h" />
+    <ClInclude Include="Object\Dokan_Y\yokodokan3.h" />
+    <ClInclude Include="Object\Dokan_Y\yokodokan4.h" />
+    <ClInclude Include="Object\Dokan_Y\yokodokan5.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6f2c520e-2e8a-4d13-b4da-82a42da5b06f}</ProjectGuid>
+    <RootNamespace>Mario</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\dxlib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\dxlib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
