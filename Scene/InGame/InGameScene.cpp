@@ -224,7 +224,7 @@ void InGameScene::Draw() const
 	DrawRotaGraph(630, 40, 1.0, 0, sann, TRUE);
 		
 #ifdef _DEBUG
-	DrawLine(D_WIN_MAX_X -, 0, D_WIN_MAX_X /2 , D_WIN_MAX_Y, GetColor(255, 255, 255));
+	DrawLine(D_WIN_MAX_X / 5.3, 0, D_WIN_MAX_X /5.3 , D_WIN_MAX_Y, GetColor(255, 255, 255));
 #endif // DEBUG_ON
 
 	__super::Draw();
